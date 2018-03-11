@@ -12,6 +12,7 @@ module Simpler
       end
 
       def match?(method, path)
+        binding.pry
         @method == method && path.match(@path)
       end
 

@@ -1,0 +1,65 @@
+
+I, [2018-03-11T15:50:01.442257 #8674]  INFO -- : Request: GET /tests
+
+                    Handler: TestsController#index
+
+                    Parameters: {:id=>nil} {}
+
+                    Response: 200 {"Content-Type"=>"text/html", "Content-Length"=>"19"} {:plain=>"Plain text response"}
+
+I, [2018-03-11T15:51:22.745739 #8701]  INFO -- : Request: GET /tests
+
+                    Handler: TestsController#index
+
+                    Parameters: {:id=>nil} {}
+
+                    Response: 200 {"Content-Type"=>"text/html", "Content-Length"=>"19"} {:plain=>"Plain text response"}
+
+I, [2018-03-11T15:52:33.697967 #8730]  INFO -- : Request: GET /tests
+
+                    Handler: TestsController#index
+
+                    Parameters: {:id=>nil} {:id=>nil}
+
+                    Response: 200 {"Content-Type"=>"text/html", "Content-Length"=>"19"} {:plain=>"Plain text response"}
+
+I, [2018-03-11T16:00:24.358985 #9031]  INFO -- : Request: GET /tests
+
+                    Handler: TestsController#index
+
+                    Parameters: {:id=>nil}
+
+                    Response: 200 {"Content-Type"=>"text/html", "Content-Length"=>"19"} {:plain=>"Plain text response"}
+
+I, [2018-03-11T16:01:19.375551 #9058]  INFO -- : Request: GET /tests
+
+                    Handler: TestsController#index
+
+                    Parameters: {:id=>nil}
+
+                    Response: 200 {"Content-Type"=>"text/html", "Content-Length"=>"21"} {:plain=>"Plain text response: "}
+
+I, [2018-03-11T16:01:38.318462 #9058]  INFO -- : Request: GET /tests/1
+
+                    Handler: TestsController#index
+
+                    Parameters: {:id=>"1"}
+
+                    Response: 200 {"Content-Type"=>"text/html", "Content-Length"=>"22"} {:plain=>"Plain text response: 1"}
+
+I, [2018-03-11T16:05:25.152076 #9121]  INFO -- : Request: GET /tests/1
+
+                    Handler: TestsController#index
+
+                    Parameters: {:id=>"1"}
+
+                    Response: 200 {"Content-Type"=>"text/html", "Content-Length"=>"19"} {:plain=>"Plain text response"}
+
+I, [2018-03-11T16:05:35.129502 #9149]  INFO -- : Request: GET /tests/1
+
+                    Handler: TestsController#show
+
+                    Parameters: {:id=>"1"}
+
+                    Response: 200 {"Content-Type"=>"text/html", "Content-Length"=>"1"} {:plain=>"1"}
+
